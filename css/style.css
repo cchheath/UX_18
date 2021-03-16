@@ -73,3 +73,21 @@ footer ul{
 footer li{
     padding:1%;
 }
+
+.flexContainer{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.workGrid{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.gridItem{
+    /* grid-area: 1; */
+    padding:10px;
+}
